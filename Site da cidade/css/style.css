@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: white url(../imagens/fundo.png) repeat-x;
+}
+
+header{
+    width: 750px;
+    
+}
+
+.cabecalho{
+    text-align: center;
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat  right top;
+    padding-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+    margin-top: 10px;
+}
