@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100%;
+    
 }
 
 body{
@@ -10,17 +10,17 @@ body{
 }
 
 header{
-    width: 750px;
+
     
 }
 
 .cabecalho{
-    text-align: center;
+
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat  right top;
     padding-top: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
@@ -29,4 +29,41 @@ header{
     height: 66px;
     background: url(../imagens/logo.png) no-repeat;
     margin-top: 10px;
+}
+
+ul{
+    margin: 0;
+    padding: 0 ;
+    list-style: none;
+    
+}
+
+.navegacao {
+
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+
+}
+
+.navegacao li {
+    float: left;
+}
+
+.navegacao li a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration:  none white;
+    color: white;
+    background: url(../imagens/divisor.png) repeat-y left center;
+}
+
+.navegacao li a:hover{
+    color: darkred;
+}
+
+.selecionado {
+    background-color: rgb(77, 3, 3);
 }
