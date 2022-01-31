@@ -6,12 +6,12 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background: white url(../imagens/fundo.png) repeat-x;
+    
 }
 
-header{
-
-    
+.fundo{
+    background: white url(../imagens/fundo.png) repeat-x;
+    height: 233px;
 }
 
 .cabecalho{
@@ -33,16 +33,20 @@ header{
 
 ul{
     margin: 0;
-    padding: 0 ;
+    padding-top: 0;
     list-style: none;
     
 }
 
 .navegacao {
 
+
     background: #b10333;
     margin-top: 30px;
     float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 
 }
 
@@ -67,3 +71,92 @@ ul{
 .selecionado {
     background-color: rgb(77, 3, 3);
 }
+
+
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+
+#uma__coluna .conteudo__destaques{
+    float: left;
+    margin: 0 0 20px 15px;
+    width: 100%;
+}
+
+ #tres__colunas .conteudo__lateral{
+    float: left;
+    width: 22%;
+    margin: 0px 0px 10px 15px;
+}
+
+#tres__colunas .conteudo__destaques{
+    float: left;
+    margin: 0 0 20px 15px;
+    width: 30%;
+}
+
+#tres__colunas .conteudo__secundario{
+    float: left;
+    width: 35%;
+    margin: 0px 0px 20px 15px;
+}
+
+#duas__colunas .conteudo__destaques{
+    float: left;
+    margin: 0 0 20px 15px;
+    width: 60%;
+}
+
+#duas__colunas .conteudo__lateral{
+    float: left;
+    width: 20%;
+    margin: 0px 0px 10px 15px;
+}
+
+#duas__colunas .conteudo__secundario{
+    width: 0%;
+    margin: 0px 0px 20px 15px;
+}
+
+.caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 3px 0;
+    padding:  5px ;
+
+}
+
+.titulo__caixa{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa__conteudo{
+    padding: 5px;
+    background: white;
+    font-size: 0.8em;
+    margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+.rodape{
+    color: #fff;
+    background:#294c71 ;
+    clear: left;
+    width: 100%;
+    margin: 0;
+    height: 50px;
+}
+
+
