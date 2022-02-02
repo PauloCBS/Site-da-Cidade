@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    
+    height: 100%;
 }
 
 .fundo{
@@ -139,14 +139,61 @@ main{
     padding: 5px;
     background: white;
     font-size: 0.8em;
-    margin-top: 5px;
+   
+
+}
+
+.conteudo__lateral ul  a{
+    font-size: 0.9em;
+    padding: 3px;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3 ;
+   
+}
+
+.conteudo__lateral ul  a:hover{
+    color: darkgray;
+   
+}
+
+input{
+    padding: 5px;
+    width: 90%;
+    background-color: white;
+
+}
+
+.submit{
+    width: 100%;
+    color: white;
+    border: 2px solid #870529;
+    background: #b10333;
+    padding: 5px;
 
 }
 
 
 
+.imagemHome{
+    width:97%;
+    border: 3px solid #dfdfdf;
+}
+
+h5{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+
+}
 
 
+ul{
+    background: #fff;
+    height: 100%;
+}
 
 
 
@@ -159,4 +206,45 @@ main{
     height: 50px;
 }
 
+.caixa h5 {
+    background: #b10333;
+    color: #fff;
+}
 
+
+a img {
+    width: 30%;
+}
+
+.lista_noticias li{
+    padding-left: 2px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    height: 15%;
+    width: 100%;
+
+}
+
+.lista_noticias li a img{
+    float: left;
+    margin: 5px;
+    width: 30%;
+    height: 70%;
+
+}
+.lista_noticias li a{
+   font-size: 0.5em;
+    text-decoration: none;
+    width: 50%;
+}
+
+.caixa_lista{
+    background: #f8f8f8 url(../imagens/fundo-caixa.png);
+    margin: 3px 0;
+    padding:  5px ;
+    width: 100%;
+    height: 200px;
+}
+
+.caixa_lista p {
+    width: 100%;
+}
